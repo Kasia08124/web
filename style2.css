@@ -1,0 +1,41 @@
+h1 {
+    color: rgb(26, 24, 24);
+    font-size: 24pt;
+    font-family: 'Libre Baskerville', 'Times', serif;
+    font-style: italic;
+    font-weight: 700;
+}
+
+p {
+    color: black;
+    font-size: 12pt;
+    font-family: 'Kanit', 'Arial',sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+input{
+    font-size: 12pt;
+    font-family: 'Kanit', 'Arial',sans-serif;
+    font-weight: 200;
+
+}
+
+body{
+
+    font-family: 'Kanit', 'Arial',sans-serif;
+
+}
+
+*{ 
+    box-sizing: border-box;
+}
+
+input{    background-color: #6200ff47;
+    padding: 5px;
+    padding-left: 10px;
+    border: 1px dotted #533ec9;
+    margin: 20px;
+border-radius: 5px;
+color: blue;}
+
