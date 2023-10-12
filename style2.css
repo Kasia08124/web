@@ -39,3 +39,46 @@ input{    background-color: #6200ff47;
 border-radius: 5px;
 color: blue;}
 
+/* 
+table[class="a"] {}
+*/
+.tabela {
+background-color: rgba(12, 236, 12, 0.527);
+border: 5px solid rgb(70, 34, 10);
+border-collapse: collapse;
+width: 100%;
+}
+
+.tabela td, .tabela th {
+
+ border: 1px solid black;
+ padding: 5px;
+
+}
+
+.tabela tr:nth-child(odd) > td {
+background-color: #533ec9;
+
+}
+
+.tabela th {
+    color: white;
+    background-color: brown;
+    text-align: left;
+    font-style: normal;
+}
+
+.tabela tr:hover > td {
+    background-color: rgb(235, 31, 224);
+    color: azure;
+}
+
+.mala {
+    background-color: rgb(229, 255, 0);
+    border: 5px solid rgb(247, 5, 5);
+}
+
+.mala tr:nth-child(even) > td {
+    background-color: #9fc93e;
+    
+    }
